@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tfl.RoadStatusApp", "Tfl.RoadStatusApp\Tfl.RoadStatusApp.csproj", "{859CBA8A-1D90-4555-B5F0-5D860794C5A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tfl.RoadStatus.Core", "Tfl.RoadStatus.Core\Tfl.RoadStatus.Core.csproj", "{E4C3A65D-03B9-4BE3-8E72-65C17B9937A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C62E4F99-F643-4DF2-AC66-7AF23F687A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tfl.RoadStatus.Core.Tests", "Tfl.RoadStatus.Core.Tests\Tfl.RoadStatus.Core.Tests.csproj", "{8B66AD81-C88F-409A-A27D-C97CAF311BBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{859CBA8A-1D90-4555-B5F0-5D860794C5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859CBA8A-1D90-4555-B5F0-5D860794C5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859CBA8A-1D90-4555-B5F0-5D860794C5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859CBA8A-1D90-4555-B5F0-5D860794C5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C3A65D-03B9-4BE3-8E72-65C17B9937A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C3A65D-03B9-4BE3-8E72-65C17B9937A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C3A65D-03B9-4BE3-8E72-65C17B9937A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C3A65D-03B9-4BE3-8E72-65C17B9937A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B66AD81-C88F-409A-A27D-C97CAF311BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B66AD81-C88F-409A-A27D-C97CAF311BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B66AD81-C88F-409A-A27D-C97CAF311BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B66AD81-C88F-409A-A27D-C97CAF311BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B66AD81-C88F-409A-A27D-C97CAF311BBB} = {C62E4F99-F643-4DF2-AC66-7AF23F687A6C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65BD1A62-40B8-4592-8175-B1B56E8C16E0}
+	EndGlobalSection
+EndGlobal
