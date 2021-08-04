@@ -11,6 +11,7 @@ namespace Tfl.RoadStatusApp
     {
         static void Main(string[] args)
         {
+            //comment added
             if (args.Length > 0)
             {
                 var consoleClient = new RoadStatusConsoleClient();
